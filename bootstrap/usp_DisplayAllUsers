@@ -1,0 +1,20 @@
+/*
+Name: usp_DisplayAllUsers
+Description: display all records and columns in hvmcclogin table
+Author: Dalton Phan	
+Modification Log: CHANGE 
+
+
+Description						Date					Changed By
+Created procedure				12/28/2015				Dalton Phan
+*/
+CREATE PROCEDURE usp_DisplayAllUsers
+(
+@user_name   Varchar(20),
+
+)
+AS
+BEGIN
+
+SELECT * FROM hvmcclogin
+END

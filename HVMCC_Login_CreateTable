@@ -1,0 +1,11 @@
+use hvmcc; 
+create table IF NOT EXIST hvmcclogin(
+id int NOT NULL auto_increment key,
+
+user_name varchar(25) NOT NULL,
+password varchar(25) NOT NULL,
+user_type varchar(25) NOT NULL,
+
+INSERT  into hvmcclogin ( user_name , password, user_type)
+VALUES ( 'admin',  'password',  'admin');
+

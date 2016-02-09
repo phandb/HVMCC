@@ -1,0 +1,320 @@
+body{
+    background-color: #f8f8f8;
+	background: radial-gradient(center,#FFFFFF,#f8f8f8);
+}
+.page-body{
+    margin: 0 auto;
+	width: 70%;
+	clear: both;
+		
+}
+.logo-header{
+	background-color: #f8f8f8;
+	height: 87px;
+}
+.logo-header img{
+	
+	margin-left:0%;
+	margin-bottom: 0%;
+	float: left;
+	
+}
+.logo-header h1{
+	
+	margin-right: 10%;
+	color: #FA0223;
+	text-align: center;
+	font-size: 150%;
+}
+
+.logo-header h3{
+    
+	margin-right: 10%;
+	color: #FA0223;
+	text-align: center;     
+	font-size: 100%;
+}
+/*------------------------------------------------*/
+.carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 100%;
+      margin: auto;
+	  
+  }
+  /* Remove the navbar's default margin-bottom and rounded borders */ 
+/*------------------------------------------------------------------*/
+.navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+	  background-color: #0000CD;  /* set navigation bar background color to bright blue*/
+	  color: #ffffff;
+    }
+	
+.navbar-nav li a {
+		color: #FFFFFF; /*white*/
+	}
+	
+.navbar-default {
+  background-color: #0000CD;
+  border-color: #e7e7e7;
+}
+.navbar-default .navbar-brand {
+  color: #FFFFFF;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+  color: #FFFFFF;
+  background-color: #000066;
+}
+.navbar-default .navbar-text {
+  color: #FFF;
+}
+.navbar-default .navbar-nav > li > a {
+  color: #FFF;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: #FFFFFF;
+  background-color: #000066;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  color: #FFFFFF;
+  background-color: #000066;
+}
+.navbar-default .navbar-nav > .disabled > a,
+.navbar-default .navbar-nav > .disabled > a:hover,
+.navbar-default .navbar-nav > .disabled > a:focus {
+  color: #FFF;
+  background-color: #000066;
+}
+.navbar-default .navbar-toggle {
+  border-color: #000066;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+  background-color: #000066;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color:#000066;
+}
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+  border-color: #e7e7e7;
+}
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+  color: #FFF;
+  background-color: #000066;
+}
+@media (max-width: 767px) {
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: #FFFFF;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #FFFFFF;
+    background-color: #000066;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #FFFFFF;
+    background-color: #000066;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a,
+  .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a:focus {
+    color: #FFF;
+    background-color: #000066;
+  }
+}
+.navbar-default .navbar-link {
+  color: #FFFFFF;
+}
+.navbar-default .navbar-link:hover {
+  color: #FFFFFF;
+}
+.navbar-default .btn-link {
+  color: #FFFFFF;
+}
+.navbar-default .btn-link:hover,
+.navbar-default .btn-link:focus {
+  color: #FFFFFF;
+}
+.navbar-default .btn-link[disabled]:hover,
+fieldset[disabled] .navbar-default .btn-link:hover,
+.navbar-default .btn-link[disabled]:focus,
+fieldset[disabled] .navbar-default .btn-link:focus {
+  color: #FFF;
+}
+.dropdown li a:hover, .dropdown  li a:focus{
+	background-color: #000066;  /*navy*/
+	color: #FFFFFF;  /*white;*/
+ }
+.dropdown-menu{
+		background-color: #0000CD;  /*midnight blue*/
+		color: #FFFFFF;
+		padding: 10x;
+	}
+	
+.dropdown-menu li a{
+		background-color: #0000CD;
+		
+	}
+    
+
+/*--------------dropdown submenu------------------------*/
+.dropdown-submenu {
+    position:relative;
+}
+.dropdown-submenu>.dropdown-menu {
+    top:0;
+    left:100%;
+    margin-top:-6px;
+    margin-left:-1px;
+    -webkit-border-radius:0 6px 6px 6px;
+    -moz-border-radius:0 6px 6px 6px;
+    border-radius:0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+    display:block;
+}
+.dropdown-submenu>a:after {
+    display:block;
+    content:" ";
+    float:right;
+    width:0;
+    height:0;
+    border-color:transparent;
+    border-style:solid;
+    border-width:5px 0 5px 5px;
+    border-left-color:#cccccc;
+    margin-top:5px;
+    margin-right:-10px;
+}
+.dropdown-submenu:hover>a:after {
+    border-left-color:#ffffff;
+}
+.dropdown-submenu.pull-left {
+    float:none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+    left:-100%;
+    margin-left:10px;
+    -webkit-border-radius:6px 0 6px 6px;
+    -moz-border-radius:6px 0 6px 6px;
+    border-radius:6px 0 6px 6px;
+}
+/*-------------------------------------*/
+
+/* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+.row.content {height: auto;}
+    
+/* Set gray background color and 100% height */
+.sidenav {
+      padding-top: 20px;
+      background-color: #f1f1f1;
+      height: 100%;
+}
+	
+.well {
+  padding: 0;
+  margin-bottom: 0px;
+  background-color: #f1f1f1;
+  border: 1px solid #e3e3e3;
+  border-radius: 0px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .05);
+          box-shadow: inset 0 1px 1px rgba(0, 0, 0, .05);
+  height: auto;	 
+  width: 100%;  
+}
+
+.sidebar-header{
+	width: 100%;
+	background-color: #CCCCFF;
+	border-radius: 0px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	font-size: 100%;
+	color: #000;
+	text-align: center;
+}
+.sidebar-header  a{
+	font-size: 85%;
+}
+
+
+/*.well .sidebar ul{
+	display: block;
+}*/
+.well .sidebar li{
+	padding: 0px;
+	margin: 10px 10px 4px 0px;
+	
+	font-size: 100%;
+}
+
+.well .sidebar .sidebar-item a{
+	font-size: 90%;
+	color: blue;
+}
+/*---------------------------------------------*/
+#expandable .text{
+	margin-bottom: 5px; color: #777; position:relative; font-family: Arial; font-size: 14px; display: block;
+}
+#expandable .expand{
+	 
+	 text-align:left; 
+	 
+	 cursor: pointer;
+}    
+#expandable .expand:hover{
+	color:#1779dd;
+}
+
+
+#expandable .expand-height{
+	height: 80px;
+	overflow: hidden;
+}
+
+#expandable .showmore{
+	 
+	 text-align:left; 
+	 
+	 cursor: pointer;
+}    
+#expandable .showmore:hover{
+	color:#1779dd;
+}
+
+#expandable .showmore-height{
+	height: 80px;
+	overflow: hidden;
+}
+.hide{
+	display:none;
+}
+
+/*-----------------------------------------------------*/
+
+    /* Set black background color, white text and some padding */
+ footer {
+      background-color: #0000cd;
+      color: white;
+      padding: 3px;
+	  width: 100%;
+	  
+    }
+    
+    /* On small screens, set height to 'auto' for sidenav and grid */
+    @media screen and (max-width: 767px) {
+      .sidenav {
+        height: auto;
+        padding: 15px;
+      }
+      .row.content {height:auto;} 
+    }
