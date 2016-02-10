@@ -26,7 +26,10 @@
 <div class = "logo-header">
 	<img src = "images/hvmcc-logo.jpg" alt= "HVMCC-Logo">
 	<h1>Giáo Xứ Các Thánh Tử Đạo Việt Nam</h1>	
-	<h3>Holy Vietnamese Martyrs Catholic Church </h3>
+	<h4>Holy Vietnamese Martyrs Catholic Church-Diocese of Austin</h4>
+	
+	<h5>1107 E. Yager Lane- Austin Texas 78753 - Rectory: (512)-834-8483, Offices: (512)-491-7259 
+				Fax: (512)-821-1155</h5>
 </div>
 
 
