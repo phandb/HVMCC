@@ -47,77 +47,79 @@
       <!--a class="navbar-brand" href="#">WebSiteName</a-->
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav">
-        <!--li class="active"  ><a  class="current" href="#">Home</a></li-->
-		 <li class="active"><a href="#"><span class="glyphicon glyphicon-home"></span>  Home</a></li>
-        <li class="dropdown">
-          <a class="dropdown-toggle" data-toggle="dropdown" href="#">Giáo Xứ <span class="caret"></span></a>
-          <ul class="dropdown-menu">
-            <li><a href = "#">Lời Chào Mừng</a></li>
-			<li><a href = "#">Linh Mục & Phó Tế</a></li>
-			<li><a href = "#">Lịch Sử Giáo Xứ</a></li>
-			<li><a href = "#">Hội Đồng Mục Vụ</a></li>
-			<li><a href = "#">Ban Tài Chánh</a></li>
-          </ul>
-        </li>
-		
-         <li class="dropdown">
-			<a class="dropdown-toggle" data-toggle="dropdown" href="#">Phụng Vụ <span class="caret"></span></a>
+        
+		 <li class="active"><a href="#"><span class="glyphicon glyphicon-home"></span>Home</a></li>
+		 <li class="dropdown"><a href = "#">About Us</a></li>
+		  <li class="dropdown">
+			<a class="dropdown-toggle" data-toggle="dropdown" href="#">Sacraments <span class="caret"></span></a>
 			  <ul class="dropdown-menu">
-				<li><a href = "http://vietcatholic.net/Calendar/" target = "_blank">Lịch Công Giáo</a></li>
-				<li><a href = "http://www.hdgmvietnam.org/suy-niem-loi-chua-hang-ngay.97.5.aspx" target = "_blank">Lời Chúa</a></li>
-				<li><a href = "#">Chương Trình Mục Vụ</a></li>
-				<li class="dropdown dropdown-submenu"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Catholic Websites</a>
-					<ul class="dropdown-menu">
-						<li><a href = "http://www.austindiocese.org/" target="_blank">Diocese of Austin</a></li>
-						<li><a href = "http://www.vietcatholic.net" target = "_blank">Viet Catholic</a></li>
-						<li><a href = "http://w2.vatican.va/content/vatican/it.html" target = "_blank">The Holy See</a></li>
-					</ul>
-				</li>
-			</ul>
-        </li>
-		
-         <li class="dropdown">
-			<a class="dropdown-toggle" data-toggle="dropdown" href="#">Bí Tích <span class="caret"></span></a>
-			  <ul class="dropdown-menu">
-				<li><a href = "#">Bí Tích Rửa Tội</a></li>
-				<li><a href = "#">Bí Tích Giải Tội</a></li>
-				<li><a href = "#">Bí Tích Thánh Thể</a></li>
-				<li><a href = "#">Bí Tích Thêm Sức</a></li>
-				<li><a href = "#">Bí Tích Hôn Phối</a></li>
-				<li><a href = "#">Bí Tích Truyền Chức Thánh</a></li>
-				<li><a href = "#">Bí Tích Xức Dầu</a></li>
+				<li><a href = "#">Baptism</a></li>
+				<li><a href = "#">Reconciliation</a></li>
+				<li><a href = "#">Holy Communion</a></li>
+				<li><a href = "#">Conformation</a></li>
+				<li><a href = "#">Matrimony</a></li>
+				<li><a href = "#">Holy Orders</a></li>
+				<li><a href = "#">Anointing of the Sick</a></li>
 			  </ul>
         </li>
-		
 		<li class="dropdown">
-			<a class="dropdown-toggle" data-toggle="dropdown" href="#">Hội Đoàn <span class="caret"></span></a>
+			<a class="dropdown-toggle" data-toggle="dropdown" href="#">Ministries <span class="caret"></span></a>
 			<ul class="dropdown-menu">
-				<li><a href = "#">Các Bà Mẹ Công Giáo</a></li>
 				<li><a href = "#">Liên Minh Thánh Tâm</a></li>
+				<li><a href = "#">Các Bà Mẹ Công Giáo</a></li>
 				<li><a href = "#">Canh Tân Đặc Sủng</a></li>
 				<li><a href = "#">Thiếu Nhi Thánh Thể</a></li>
 				<li><a href = "#">Đồng Hành Agape</a></li>
 				<li><a href = "#">Ca Đoàn</a></li>
 				<li><a href = "#">Cursillo</a></li>
-				<li><a href = "http://www.hvmccyam.wordpress.com" target = "_blank" >Young Adult Ministry</a></li>
+				<li><a href = "#">Hội Mân Côi</a></li>
 			</ul>
 		</li>
         <li class="dropdown">
-		   <a class="dropdown-toggle" data-toggle="dropdown" href = "#">Giáo Dục<span class="caret"></span></a>
-			<ul class = "dropdown-menu">
-				<li><a href = "#">Việt Ngữ</a></li>
-				<li><a href = "#">Giáo Lý</a></li>
-								
-			</ul>	
-		</li>
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">Education<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href = "#">Giáo Lý</a></li>
+			<li><a href = "#">Việt Ngữ</a></li>
+			<li><a href = "#">Thiếu Nhi</a></li>
+			<li><a href = "#">Giáo Lý Tân Tòng</a></li>
+			<li><a href = "#">Giáo Lý Hôn Nhân</a></li>
+			<li><a href = "#">ESL</a></li>
+			<li><a href = "#">US Citizenship</a></li>
+          </ul>
+        </li>
+		<li class="dropdown"><a href = "#">Staff</a></li>
+         <li class="dropdown">
+			<a class="dropdown-toggle" data-toggle="dropdown" href="#">Links<span class="caret"></span></a>
+			  <ul class="dropdown-menu">
+			    <li><a href = "http://www.austindiocese.org/" target="_blank">Diocese of Austin</a></li>
+				<li><a href = "http://w2.vatican.va/content/vatican/en.html" target = "_blank">The Holy See</a></li>
+				<li><a href = "http://www.liendoanconggiao.net/index.php" target = "_blank">Liên Đoàn Công Giáo Việt Nam Tại Hoa Kỳ</a></li>
+				<li><a href = "http://vietcatholic.net/Calendar/" target = "_blank">Lịch Công Giáo</a></li>
+				<li><a href = "http://www.usccb.org/bible/readings" target = "_blank">Today's Readings</a></li>
+				
+				
+				<!--li class="dropdown dropdown-submenu"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Catholic Websites</a>
+					<ul class="dropdown-menu">
+						<li><a href = "http://www.austindiocese.org/" target="_blank">Diocese of Austin</a></li>
+						<li><a href = "http://www.vietcatholic.net" target = "_blank">Viet Catholic</a></li>
+						<li><a href = "http://w2.vatican.va/content/vatican/it.html" target = "_blank">The Holy See</a></li>
+					</ul>
+				</li-->
+			</ul>
+        </li>
 		
-		<li class="dropdown"><a href = "#">Liên Lạc</a></li>
+        
+		
+		
+        <li class="dropdown"><a href = "#">Activities</a></li>
+		
+		<li class="dropdown"><a href = "#">Contact Us</a></li>
 		
       </ul>
 	  
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
-        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+        <li><a href="#"><span class="glyphicon glyphicon-user"></span>Forms</a></li>
+        <!--li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li-->
       </ul>
      </div>
   </div>
@@ -183,18 +185,19 @@
   <div class="row content">
   <!--------------left column---------->  
     <div class="col-sm-2 sidenav">
-		<div class = "well">
+		<!--div class = "well">
 			<header class = "sidebar-header"><b>Welcome</b></header>
 			<p class="sub-header"><u>Pastor</u></p>
 			<p style = "color: blue">Rev. Phạm Lê Minh</p>
 			<p class="sub-header"><u>Deacon</u></p>
 			<p style = "color: blue">Mai Thế Hòa</p>
-		</div>
-			
-		<div class="well">		
-		<article >
-			<header class = "sidebar-header"><b>Mass Time</b></header>
-			<p class="sub-header"><strong>Daily Mass</strong></p>
+		</div-->
+		<div class="panel panel-primary">
+			<div class="panel-heading">
+				<h3 class="panel-title">Mass Time</h3>
+			</div>
+			<div class="panel-body">
+				<p class="sub-header"><strong>Daily Mass</strong></p>
 			<p><u>Monday-Friday</u><br/>
 				6:30 p.m.<br/></p>
 			<p class="sub-header"><strong>Weekend Mass</strong></p>
@@ -205,20 +208,31 @@
 			<p class="sub-header"><strong>Holy Day of Obligation</strong></p>
 			<p>8:00 a.m.<br/>
 				7:00 p.m.<br/></p>
-		</article>
+			</div>
 		</div>	
-		<div class="well">
-		<article >
-			<header class = "sidebar-header"><b>Reconciliation</b></header>
-			<p><u>Saturday</u><br>
+		
+		<div class="panel panel-primary">
+			<div class="panel-heading">
+				<h3 class="panel-title">Reconciliation</h3>
+			</div>
+			<div class="panel-body">
+				<p><u>Saturday</u><br>
 				5:00 p.m. - 6:00 p.m. <br> or by appointment<br/></p>
-		</article>
-		</div>
+			</div>
+		</div>	
+		
+		
+		
     </div>
 	
 	<!--------------central column--------->  
+	
     <div class="col-sm-8 text-left"> 
-		 <?php
+		<div class="well">
+			<h3 class="panel-title">Mission Statement</h3>
+		</div>
+		<div class="well">
+			 <?php
 			$DBServer = 'localhost'; // e.g 'localhost' or '192.168.1.100'
 			$DBUser   = 'root';
 			$DBPass   = 'Thaihoa92';
@@ -233,7 +247,7 @@
 			}
        
        			
-			$sql = "SELECT title, author, publishDate, content FROM article order by article.articleID DESC LIMIT 0,4";
+			$sql = "SELECT title, author, publishDate, content FROM article order by article.articleID DESC LIMIT 0,2";
 			$recordset = $dbConn->query($sql) or die('Error perform query!');
 			
 			
@@ -260,39 +274,57 @@
 			$dbConn->close();
 			
 		?>
+		</div>
+		<div class="well">
+			<h3 class="panel-title">Mission Statement</h3>
+		</div>
+		
 		
 		
     </div>
 	
 	<!--------------right column---------->  
     <div class="col-sm-2 sidenav">
-      <div class="well">
-        <div  class="sidebar">
-			<header class = "sidebar-header"><b>Quick Links</b></header>
-			<ul >
-				 <li class = "sidebar-item"><a href= "http://www.austindiocese.org/" target = "_blank">Austin Diocese</a></li>
-				 <li class = "sidebar-item"><a href = "http://www.vietcatholic.net" target = "_blank">Viet Catholic</a></li>
-				 <li class = "sidebar-item"><a href = "http://www.usccb.org/bible/readings" target = "_blank">Today's Readings</a></li>
-			</ul>
+		<div class="panel panel-primary">
+			<div class="panel-heading">
+				<h3 class="panel-title">Quick Links</h3>
+			</div>
+			<div class="panel-body">
+				<ul >
+					 <li class = "sidebar-item"><a href= "http://www.austindiocese.org/" target = "_blank">Austin Diocese</a></li>
+					 <li class = "sidebar-item"><a href = "http://www.vietcatholic.net" target = "_blank">Viet Catholic</a></li>
+					 <li class = "sidebar-item"><a href = "http://www.usccb.org/bible/readings" target = "_blank">Today's Readings</a></li>
+				</ul>
+			</div>
 		</div>
-      </div>
-      <div class="well">
-        <div class="sidebar" >
-			<header class = "sidebar-header"><b>Parish Calendar</b></header>
-			<ul >
-				 <li class = "sidebar-item"><a href= "http://www.austindiocese.org/" target = "_blank">Austin Diocese</a></li>
-				 <li class = "sidebar-item"><a href = "http://www.vietcatholic.net" target = "_blank">Viet Catholic</a></li>
-				 <li class = "sidebar-item"><a href = "http://www.usccb.org/bible/readings" target = "_blank">Today's Readings</a></li>
-			</ul>
+        
+		
+		<div class="panel panel-primary">
+			<div class="panel-heading">
+				<h3 class="panel-title">Quick Links</h3>
+			</div>
+			<div class="panel-body">
+				<ul >
+					 <li class = "sidebar-item"><a href= "http://www.austindiocese.org/" target = "_blank">Austin Diocese</a></li>
+					 <li class = "sidebar-item"><a href = "http://www.vietcatholic.net" target = "_blank">Viet Catholic</a></li>
+					 <li class = "sidebar-item"><a href = "http://www.usccb.org/bible/readings" target = "_blank">Today's Readings</a></li>
+				</ul>
+			</div>
 		</div>
-      </div>
-	  <div class="well">
-        <article class="sidebar">
-			<header class = "sidebar-header"><b>Parish News</b></header>
-			<p>This is right side bar</p>
-		</article>
-      </div>
-    </div>
+      
+      <div class="panel panel-primary">
+			<div class="panel-heading">
+				<h3 class="panel-title">Quick Links</h3>
+			</div>
+			<div class="panel-body">
+				<ul >
+					 <li class = "sidebar-item"><a href= "http://www.austindiocese.org/" target = "_blank">Austin Diocese</a></li>
+					 <li class = "sidebar-item"><a href = "http://www.vietcatholic.net" target = "_blank">Viet Catholic</a></li>
+					 <li class = "sidebar-item"><a href = "http://www.usccb.org/bible/readings" target = "_blank">Today's Readings</a></li>
+				</ul>
+			</div>
+		</div>
+	 
   </div>
 </div>
 
